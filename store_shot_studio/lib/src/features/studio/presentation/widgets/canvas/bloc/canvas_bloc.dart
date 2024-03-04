@@ -9,8 +9,8 @@ class CanvasBloc extends Bloc<CanvasEvent, CanvasState> {
       : super(CanvasCurrentProperties(
           baseScale: 1.0,
           scale: 1.0,
-          width: 500,
-          height: 500,
+          width: 1024,
+          height: 512,
           decoration: const BoxDecoration(color: Colors.red),
         )) {
     on<CanvasPropertiesUpdated>((event, emit) {
