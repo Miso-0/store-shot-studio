@@ -12,12 +12,12 @@ class StudioPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Row(
         children: [
           Expanded(
             flex: 6,
-            child: FrameBackground(
+            child: CanvasBackground(
               child: Stack(
                 children: [FocusWidget()],
               ),

@@ -3,8 +3,8 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:store_shot_studio/src/features/studio/presentation/widgets/canvas/bloc/canvas_bloc.dart';
 
-class FrameBackground extends StatelessWidget {
-  const FrameBackground({super.key, required this.child});
+class CanvasBackground extends StatelessWidget {
+  const CanvasBackground({super.key, required this.child});
   final Widget child;
 
   @override
