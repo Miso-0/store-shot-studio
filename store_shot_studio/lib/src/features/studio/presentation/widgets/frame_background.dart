@@ -4,12 +4,14 @@ import 'package:flutter/gestures.dart';
 class FrameBackground extends StatefulWidget {
   final double width;
   final double height;
+  final Widget child;
   final BoxDecoration decoration;
 
   const FrameBackground({
     super.key,
     required this.width,
     required this.height,
+    required this.child,
     this.decoration = const BoxDecoration(
       color: Colors.red,
     ),
@@ -60,6 +62,7 @@ class _FrameBackgroundState extends State<FrameBackground> {
               width: widget.width,
               height: widget.height,
               decoration: widget.decoration,
+              child: widget.child,
             ),
           ),
         ),
