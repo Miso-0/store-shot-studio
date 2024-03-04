@@ -2,8 +2,6 @@ import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
 import 'package:store_shot_studio/src/features/studio/presentation/widgets/canvas/canvas_background.dart';
 import 'package:store_shot_studio/src/features/studio/presentation/widgets/focus_widget.dart';
-import 'package:store_shot_studio/src/features/studio/presentation/widgets/frames/phones/iphone_14_frame.dart';
-import 'package:store_shot_studio/src/features/studio/presentation/widgets/selected_widget.dart';
 import 'package:store_shot_studio/src/features/studio/presentation/widgets/side_panel.dart';
 
 @RoutePage()
