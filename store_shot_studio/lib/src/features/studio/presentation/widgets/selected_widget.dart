@@ -28,6 +28,12 @@ class _SelectableWidgetState extends State<SelectableWidget> {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: _toggleSelection,
+      onLongPress: () {
+        print('Long press');
+      },
+      onLongPressUp: () {
+        print('Long press up');
+      },
       child: Container(
         decoration: _isSelected
             ? BoxDecoration(
